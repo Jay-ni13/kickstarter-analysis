@@ -11,15 +11,20 @@ For this analysis, we began with a dataset of 4114 unique Kickstarter campaigns 
 
 ### Analysis of Outcomes Based on Launch Date
 To determine where certain projects succeeded or failed based on their launch date, we utilized Excel's conditional formatting to create a pivot table based on the 'theater' category and their date of creation in our dataset:
+
 ![Theater Outcomes Table](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_Table.png)
+
 The following line chart visualizes the relationship between the outcomes and launch months of the 1369 theater projects in our data subset:
 
 ![Theater Outcomes Based on Launch Date](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
 To assess the fundraising goals of our dataset's 'plays' subcategory and their rate of success, failure, or cancelation, we created the following table utilizing Excel's =COUNTIFS() function:
+
 ![Outcomes vs Goals Table](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals_Table.png)
+
 This line chart visulizes how the amount goal ranges relate to the percentage of successful, failed, or canceled plays projects in our data subset:
+
 ![Outcomes Based on Goal](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
