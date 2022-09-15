@@ -10,15 +10,16 @@ An up-and-coming playwright we previously assisted with tailoring a fundraising 
 For this analysis, we began with a dataset of 4114 unique Kickstarter campaigns from 2009 to 2017. The dataset was further refined by category and subcategory to target projects specifically related to our client's interests.
 
 ### Analysis of Outcomes Based on Launch Date
-To determine where certain projects succeeded or failed based on their launch date, we utilized Excel's conditional formatting to create a pivot table based on the 'theater' category and their date of creation in our dataset.
+To determine where certain projects succeeded or failed based on their launch date, we utilized Excel's conditional formatting to create a pivot table based on the 'theater' category and their date of creation in our dataset:
 ![Theater Outcomes Table](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_Table.png)
-The following line chart visualizes the relationship between the outcomes and launch months of the 1369 theater projects in our data subset.
+The following line chart visualizes the relationship between the outcomes and launch months of the 1369 theater projects in our data subset:
+
 ![Theater Outcomes Based on Launch Date](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_vs_Launch.png)
 
 ### Analysis of Outcomes Based on Goals
-To assess the fundraising goals of our dataset's 'plays' subcategory and their rate of success, failure, or cancelation, we created the following table utilizing Excel's =COUNTIFS() function.
+To assess the fundraising goals of our dataset's 'plays' subcategory and their rate of success, failure, or cancelation, we created the following table utilizing Excel's =COUNTIFS() function:
 ![Outcomes vs Goals Table](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals_Table.png)
-This line chart visulizes how the amount goal ranges relate to the percentage of successful, failed, or canceled plays projects in our data subset.
+This line chart visulizes how the amount goal ranges relate to the percentage of successful, failed, or canceled plays projects in our data subset:
 ![Outcomes Based on Goal](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
@@ -29,12 +30,12 @@ The extreme breadth of fundraising goals in this dataset also presents a difficu
 
 ### Outcomes Based on Launch Date
 Two conclusions presented by analysis of theater project outcomes based on their launch date are: 
-1) Projects launched in the months of May, June, and July have higher success rates than projects launched during the rest of the calendar year, and
+1) Projects launched in the months of May, June, and July have higher success rates than projects launched during the rest of the calendar year.
 2) Launching campaigns in December and January--around the Christmas and New Year's holidays--has almost equal chances of failure or cancelation as they do of success.
 
 ### Outcomes Based on Goals
 Analysis of the 'Outcomes Based on Goal' chart indicates that overall, theater projects with lower fundraising goals higher a higher success rate than projects with higher target goals. 
-    - However, the campaigns with a goal between $35,000-$45,000 deviate from this trend. As this range only includes 9 data points, it is hard to draw a definitive conclusion except that this would be a useful goal-amount range to investigate when/if our playwright undertakes such a project.
+    ---However, the campaigns with a goal between $35,000-$45,000 deviate from this trend. As this range only includes 9 data points, it is hard to draw a definitive  conclusion except that this would be a useful goal-amount range to investigate when/if our playwright undertakes such a project.
 
 ### Limitations
 Though this dataset contains 4114 unique data points, the analyses were based on subsets that contained only 1369 and 1047 data points (respectively). Likewise, the initial set included projects from 2009 to 2017, but the subsets only include data points from 2014 to 2017. As 2/3 of the initial dataset was not utilized in more targeted analyses, more datasets from other crowdfunding campaign platforms and sources would be useful in expanding the scope of this project and further refining its conclusions.
