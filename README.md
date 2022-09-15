@@ -39,8 +39,9 @@ Two conclusions presented by analysis of theater project outcomes based on their
 2) Launching campaigns in December and January--around the Christmas and New Year's holidays--has almost equal chances of failure or cancelation as they do of success.
 
 ### Outcomes Based on Goals
-Analysis of the 'Outcomes Based on Goal' chart indicates that overall, theater projects with lower fundraising goals higher a higher success rate than projects with higher target goals. 
-    ---However, the campaigns with a goal between $35,000-$45,000 deviate from this trend. As this range only includes 9 data points, it is hard to draw a definitive  conclusion except that this would be a useful goal-amount range to investigate when/if our playwright undertakes such a project.
+Analysis of the 'Outcomes Based on Goal' chart indicates that overall, theater projects with lower fundraising goals higher a higher success rate than projects with higher target goals.
+---
+However, the campaigns with a goal between $35,000-$45,000 deviate from this trend. As this range only includes 9 data points, it is hard to draw a definitive  conclusion except that this would be a useful goal-amount range to investigate when/if our playwright undertakes such a project.
 
 ### Limitations
 Though this dataset contains 4114 unique data points, the analyses were based on subsets that contained only 1369 and 1047 data points (respectively). Likewise, the initial set included projects from 2009 to 2017, but the subsets only include data points from 2014 to 2017. As 2/3 of the initial dataset was not utilized in more targeted analyses, more datasets from other crowdfunding campaign platforms and sources would be useful in expanding the scope of this project and further refining its conclusions.
