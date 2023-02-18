@@ -25,7 +25,7 @@ To assess the fundraising goals of our dataset's 'plays' subcategory and their r
 
 This line chart visulizes how the amount goal ranges relate to the percentage of successful, failed, or canceled plays projects in our data subset:
 
-![Outcomes Based on Goal](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
+<img src="https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png" width=70%>
 
 ### Challenges and Difficulties Encountered
 One challenge of working with this dataset was the presence of several extreme data points. Within the 'theater' category were several large fundraising goals for theater-building proposals, whose target goals were much higher than your average play production. However, these data point fell within the SD and IQR of the overall dataset and had to be accounted for when analyzing goals. 
