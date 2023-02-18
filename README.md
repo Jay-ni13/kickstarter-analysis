@@ -12,7 +12,7 @@ For this analysis, we began with a dataset of 4114 unique Kickstarter campaigns 
 ### Analysis of Outcomes Based on Launch Date
 To determine where certain projects succeeded or failed based on their launch date, we utilized Excel's conditional formatting to create a pivot table based on the 'theater' category and their date of creation in our dataset:
 
-![Theater Outcomes Table](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_Table.png)
+<img src="https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Theater_Outcomes_Table.png" width=70%>
 
 The following line chart visualizes the relationship between the outcomes and launch months of the 1369 theater projects in our data subset:
 
@@ -25,7 +25,7 @@ To assess the fundraising goals of our dataset's 'plays' subcategory and their r
 
 This line chart visulizes how the amount goal ranges relate to the percentage of successful, failed, or canceled plays projects in our data subset:
 
-<img src="https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png" width=70%>
+![Outcomes vs Goals Graph](https://github.com/Jay-ni13/kickstarter-analysis/blob/main/Resources/Outcomes_vs_Goals.png)
 
 ### Challenges and Difficulties Encountered
 One challenge of working with this dataset was the presence of several extreme data points. Within the 'theater' category were several large fundraising goals for theater-building proposals, whose target goals were much higher than your average play production. However, these data point fell within the SD and IQR of the overall dataset and had to be accounted for when analyzing goals. 
